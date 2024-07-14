@@ -1,0 +1,14 @@
+https://www.ascl.net/1112.014
+  Ephemeris Python package
+
+https://ascom-standards.org/alpyca/    alpyca docs
+
+
+import importlib.util
+ 
+# For illustrative purposes.
+package_name = 'alpyca'
+ 
+if importlib.util.find_spec(package_name) is None:
+    print(package_name +" is not installed")
+    pip install alpyca
